@@ -6,15 +6,16 @@
   </div>
 </template>
 
-<script>
+<script >
+
 export default {
 
 }
 </script>
 
 <style>
-@media screen and (min-width: 480px) {
-  .container{
+@media screen and (max-width: 480px) {
+  .main-container{
     width: 100%;
     display: flex;
     justify-content: center;
@@ -22,6 +23,7 @@ export default {
   .weather-container{
     width: 50%;
     background-color: black;
+    color:white
   }
 }
 </style>

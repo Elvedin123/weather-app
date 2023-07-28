@@ -1,14 +1,14 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
+  <WeatherInfo/>
 </template>
 
 <script>
-
-
+import WeatherInfo from "./components/WeatherInfo"
 export default {
   name: 'App',
   components: {
-
+    WeatherInfo
   }
 }
 </script>
