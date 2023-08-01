@@ -1,5 +1,5 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  
   <WeatherInfo/>
 </template>
 
@@ -8,18 +8,20 @@ import WeatherInfo from "./components/WeatherInfo"
 export default {
   name: 'App',
   components: {
+    // data() {
+    //   return {
+    //     api_key: 'a9ff67f399b36859cce6be9611c7a086'
+    //   }
+    // },
     WeatherInfo
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 </style>
