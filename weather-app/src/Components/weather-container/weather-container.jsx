@@ -4,9 +4,9 @@ const WeatherContainer = ()=>{
     <div className="weather">  
     
     </div>
-    <div className="forecast">
+    <div className="details">
 
-      
+
     </div>
   </div>
     
