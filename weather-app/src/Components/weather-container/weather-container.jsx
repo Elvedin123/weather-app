@@ -1,4 +1,5 @@
 import Forecast from "../Forecast/Forecast";
+import "./current-weather.css";
 
 const WeatherContainer = () => {
   return (
