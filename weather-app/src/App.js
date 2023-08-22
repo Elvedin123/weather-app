@@ -1,14 +1,11 @@
-// import { useState, useEffect } from 'react';
-import WeatherContainer from './Components/weather-container/weather-container'
-
+import WeatherContainer from "./Components/weather-container/weather-container";
+import SearchBar from "./Components/Searchbar/search-bar";
 
 function App() {
-
- 
-
   return (
     <div className="App">
-  <WeatherContainer/>
+      <SearchBar />
+      <WeatherContainer />
     </div>
   );
 }
