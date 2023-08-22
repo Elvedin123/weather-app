@@ -1,4 +1,7 @@
-const WeatherContainer = ()=>{
+import Forecast from "../Forecast/Forecast"
+
+const WeatherContainer = () => {
+  
   return (
   <div className='weather-container'>
     <div className="weather">  
@@ -7,7 +10,8 @@ const WeatherContainer = ()=>{
     <div className="details">
 
 
-    </div>
+      </div>
+      <Forecast/>
   </div>
     
   )
