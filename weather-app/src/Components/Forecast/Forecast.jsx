@@ -1,7 +1,5 @@
 const Forecast = () => {
-  return (
-    <div></div>
-  )
-}
+  return <div className="forecast-container"></div>;
+};
 
 export default Forecast;
