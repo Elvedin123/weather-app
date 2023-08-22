@@ -21,7 +21,9 @@ const WeatherContainer = () => {
         <div className="current-humidity">
           <p>10%</p>
         </div>
-        <div className="current-wind">5 MPH</div>
+        <div className="current-wind">
+          <p>5 MPH</p>
+        </div>
       </div>
       <Forecast />
     </div>
